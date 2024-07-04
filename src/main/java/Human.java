@@ -9,6 +9,14 @@ public class Human extends Entity implements Food, TakeDamage {
         this.stamina = 100;
     }
 
+    public boolean isWearingArmor() {
+        return isWearingArmor;
+    }
+
+    public void setWearingArmor(boolean wearingArmor) {
+        isWearingArmor = wearingArmor;
+    }
+
     public int getStamina() {
         return stamina;
     }
